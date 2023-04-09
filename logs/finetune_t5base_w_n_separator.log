@@ -1,0 +1,27 @@
+2023-04-09 12:46:52,441 {'mode': 'train', 'model_arch': 't5-base', 'input_type': 'separator-normal', 'data_folder': '../data/tellmewhy/', 'knowledge_folder': None, 'dataset_name': 'tellmewhy', 'batch_size': 16, 'epochs': 5, 'lr': 5e-05, 'weight_decay': 0.0, 'eps': 1e-08, 'model_dir': '../models/t5base_w_n_separator', 'log_file': '../logs/finetune_t5base_w_n_separator.log', 'source_len': 150, 'answer_len': 30, 'patience': 3, 'test_output_file': None, 'hidden_test': False}
+2023-04-09 12:46:52,441 Using cpu; did you set CUDA_VISIBLE_DEVICES in order to use a gpu?
+2023-04-09 12:47:56,176 {'mode': 'train', 'model_arch': 't5-base', 'input_type': 'separator-normal', 'data_folder': '../data/tellmewhy/', 'knowledge_folder': None, 'dataset_name': 'tellmewhy', 'batch_size': 16, 'epochs': 5, 'lr': 5e-05, 'weight_decay': 0.0, 'eps': 1e-08, 'model_dir': '../models/t5base_w_n_separator', 'log_file': '../logs/finetune_t5base_w_n_separator.log', 'source_len': 150, 'answer_len': 30, 'patience': 3, 'test_output_file': None, 'hidden_test': False}
+2023-04-09 12:47:56,184 Using cpu; did you set CUDA_VISIBLE_DEVICES in order to use a gpu?
+2023-04-09 12:54:13,678 {'mode': 'train', 'model_arch': 't5-base', 'input_type': 'separator-normal', 'data_folder': '../data/tellmewhy/', 'knowledge_folder': None, 'dataset_name': 'tellmewhy', 'batch_size': 16, 'epochs': 5, 'lr': 5e-05, 'weight_decay': 0.0, 'eps': 1e-08, 'model_dir': '../models/t5base_w_n_separator', 'log_file': '../logs/finetune_t5base_w_n_separator.log', 'source_len': 150, 'answer_len': 30, 'patience': 3, 'test_output_file': None, 'hidden_test': False}
+2023-04-09 12:54:13,678 Using cpu; did you set CUDA_VISIBLE_DEVICES in order to use a gpu?
+2023-04-09 13:00:50,036 {'mode': 'train', 'model_arch': 't5-base', 'input_type': 'separator-normal', 'data_folder': '../data/tellmewhy/', 'knowledge_folder': None, 'dataset_name': 'tellmewhy', 'batch_size': 16, 'epochs': 5, 'lr': 5e-05, 'weight_decay': 0.0, 'eps': 1e-08, 'model_dir': '../models/t5base_w_n_separator', 'log_file': '../logs/finetune_t5base_w_n_separator.log', 'source_len': 150, 'answer_len': 30, 'patience': 3, 'test_output_file': None, 'hidden_test': False}
+2023-04-09 13:00:50,036 Using cpu; did you set CUDA_VISIBLE_DEVICES in order to use a gpu?
+2023-04-09 13:00:50,300 Starting new HTTPS connection (1): huggingface.co:443
+2023-04-09 13:00:50,616 https://huggingface.co:443 "HEAD /t5-base/resolve/main/spiece.model HTTP/1.1" 200 0
+2023-04-09 13:00:58,512 Starting new HTTPS connection (1): huggingface.co:443
+2023-04-09 13:00:58,705 https://huggingface.co:443 "HEAD /t5-base/resolve/main/config.json HTTP/1.1" 200 0
+2023-04-09 13:01:06,024 Loaded model and tokenizer
+2023-04-09 13:01:06,026 Experiment training data loaded of size 1152 and dev data of size 8976
+2023-04-09 13:01:06,142 Data loaders ready
+2023-04-09 13:01:06,248 Number of train batches: 72; Number of dev batches: 561
+2023-04-09 13:43:25,496 Epoch: 1 | Train loss: 3.411641365951962 | Dev loss: 1.9829667330638185
+2023-04-09 13:43:25,496 Best model at epoch 1; Saving...
+2023-04-09 14:17:06,443 Epoch: 2 | Train loss: 2.278490114543173 | Dev loss: 1.8329495377506588
+2023-04-09 14:17:06,443 Best model at epoch 2; Saving...
+2023-04-09 14:51:12,340 Epoch: 3 | Train loss: 2.0052877184417515 | Dev loss: 1.7920548944549763
+2023-04-09 14:51:12,340 Best model at epoch 3; Saving...
+2023-04-09 15:25:36,509 Epoch: 4 | Train loss: 1.8440794034136667 | Dev loss: 1.7750977258631253
+2023-04-09 15:25:36,510 Best model at epoch 4; Saving...
+2023-04-09 16:00:09,471 Epoch: 5 | Train loss: 1.6974002172549565 | Dev loss: 1.7709717610303093
+2023-04-09 16:00:09,472 Best model at epoch 5; Saving...
+2023-04-09 16:00:10,781 Done
