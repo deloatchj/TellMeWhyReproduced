@@ -1,5 +1,5 @@
 
-#Using Commonsense Knowledge to Answer Why-Questions Reproducibility Report
+# Using Commonsense Knowledge to Answer Why-Questions Reproducibility Report
 Jerrica Deloatch, Christopher Johnson, Robert Johnson
 Reproducibility Summary
 
