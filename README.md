@@ -2,7 +2,7 @@
 # Using Commonsense Knowledge to Answer Why-Questions Reproducibility Report
 Jerrica Deloatch, Christopher Johnson, Robert Johnson
 ```
-Reproducibility Summary
+Reproducibility Experiment
 ```
 # KnowWhy
 
