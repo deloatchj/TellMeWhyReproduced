@@ -1,9 +1,0 @@
-2023-04-08 07:14:06,218 {'mode': 'test', 'model_arch': 't5-base', 'input_type': 'normal', 'data_folder': '../data/tellmewhy/', 'knowledge_folder': None, 'dataset_name': 'tellmewhy', 'batch_size': 16, 'epochs': 5, 'lr': 5e-05, 'weight_decay': 0.0, 'eps': 1e-08, 'model_dir': '../models/t5base_normal/model.pt', 'log_file': '../logs/hidden_test_t5base_normal.log', 'source_len': 150, 'answer_len': 30, 'patience': 3, 'test_output_file': '../artifacts/model_predictions/t5base.csv', 'hidden_test': True}
-2023-04-08 07:14:06,218 Using cpu; did you set CUDA_VISIBLE_DEVICES in order to use a gpu?
-2023-04-08 07:14:06,526 Starting new HTTPS connection (1): huggingface.co:443
-2023-04-08 07:14:07,172 https://huggingface.co:443 "HEAD /t5-base/resolve/main/spiece.model HTTP/1.1" 200 0
-2023-04-08 07:14:15,122 Loaded model and tokenizer
-2023-04-08 07:14:15,122 Loaded test data of size 1392
-2023-04-08 07:14:15,124 Number of test batches: 87
-2023-04-08 07:28:10,223 Done with inference; writing to file...
-2023-04-08 07:28:10,427 Done
