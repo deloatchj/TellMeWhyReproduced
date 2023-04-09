@@ -1,9 +1,15 @@
+
+#Using Commonsense Knowledge to Answer Why-Questions Reproducibility Report
+Jerrica Deloatch, Christopher Johnson, Robert Johnson
+Reproducibility Summary
+
 # KnowWhy
 
 This repository contains all the relevant code and artifacts for the paper - Using Commonsense Knowledge to Answer Why Questions (Lal et al, EMNLP 2022)
 
 ## Setup
 
+Please visit https://zenodo.org/record/7709865#.ZAkw-i-B35g to download the models, data and other artifacts associated with the paper. Once the zip file has been downloaded and unzipped at the desired location, please follow the instructions below:
 ```
 conda create --name emnlp python=3.9
 conda activate knowwhy
@@ -120,7 +126,7 @@ To see all the human evaluation numbers in one place, please check `notebooks/Hu
 
 ## Citation
 
-Please use the bibtex below to cite our work.
+Please use the bibtex below to cite the orignal authors work.
 
 ```
 @inproceedings{lal-etal-2022-using,
@@ -141,6 +147,6 @@ Please use the bibtex below to cite our work.
 ```
 
 
-## Contributors
+## Original Authors
 
 [Yash Kumar Lal](https://www3.cs.stonybrook.edu/~ylal/), [Niket Tandon](https://allenai.org/team/nikett), [Tanvi Aggarwal](https://www.linkedin.com/in/tanviaggarwal97), [Horace Liu](https://www.linkedin.com/in/horaceliu/) [Nate Chambers](https://www.usna.edu/Users/cs/nchamber/), [Raymond Mooney](https://www.cs.utexas.edu/~mooney/), [Niranjan Balasubramanian](https://www3.cs.stonybrook.edu/~niranjan/)
